@@ -8,4 +8,7 @@
     <color name="colorRed">#F44336</color>
     <color name="colorDianxin">#01019F</color>
     <color name="colorSim">#FF4466</color>
+    <color name="black_lint">#12000000</color>
+    <color name="transparentblue">#882196F3</color>
+    <color name="transparent">#00000000</color>
 </resources>
