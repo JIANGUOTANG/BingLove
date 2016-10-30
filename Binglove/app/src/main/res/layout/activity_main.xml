@@ -44,13 +44,39 @@
         android:layout_weight="7"/>
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="56dp"
+         android:gravity="center_vertical"
 
         >
         <ImageView
-            android:layout_width="56dp"
-            android:layout_height="56dp"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
             android:background="@mipmap/turmput"
+            android:layout_marginLeft="16dp"
+            />
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="match_parent">
+            <Button
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="9dp"
+                android:layout_marginTop="9dp"
+                android:background="@drawable/bg_bt"
+                android:textColor="@android:color/white"
+                android:text="@string/tutorials"
+            />
+
+        </LinearLayout>
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_marginRight="16dp"
+            android:layout_height="36dp"
+            android:background="@mipmap/setting"
+
             />
     </LinearLayout>
+
 </LinearLayout>
